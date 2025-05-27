@@ -1,35 +1,37 @@
-# .
+# Online shop
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue](https://img.shields.io/badge/Vue-3.5.13-orange)
 
-## Recommended IDE Setup
+## Технологии
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3
+- Vue Router
+- TailwindCSS
+- Axios
+- @formkit/auto-animate
+- Composition API / Options API
+- ESLint
+- Prettier
 
-## Customize configuration
+## Установка и запуск
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/warning11223/vue-online-shop.git
+```
+2. Перейдите в директорию проекта:
+```bash
+cd vue-online-shop
+```
 
-## Project Setup
-
-```sh
+3. Установите зависимости:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+4. Запустите приложение:
+```bash
 npm run dev
 ```
+Приложение будет доступно по адресу: http://localhost:5173/
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
