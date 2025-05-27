@@ -11,8 +11,6 @@ const vatPrice = computed(() => Math.round((totalPrice.value * 5) / 100))
 
 const drawerOpen = ref(false)
 
-useScrollLock(true)
-
 const closeDrawer = () => {
   drawerOpen.value = false
 }
